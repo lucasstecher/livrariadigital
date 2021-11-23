@@ -123,7 +123,7 @@ public class Livraria {
 
         try{
 
-            LivroSelecionado = getLivro(idLivro);
+            livroSelecionado = getLivro(idLivro);
 
         }
         catch (LivroNaoEncontradoException e){
@@ -142,5 +142,9 @@ public class Livraria {
         else{
             throw new CompraException("Livro" + idLivro + "sem estoque suficiente.");
         }
+    }
+
+    public void fechar(){
+        // Liberaria conexões de banco de dados, se usasse.
     }
 }

@@ -95,4 +95,19 @@ public class CarrinhoCompras {
 
     }
 
+    public void aumentarQuantidade(String idLivro) {
+        if (itens.containsKey(idLivro)) {
+            ItemCompra item = itens.get(idLivro);
+            item.incrementaQuantidade();
+        }
+    }
+
+    public void diminuirQuantidade(String idLivro) {
+        if (itens.containsKey(idLivro)) {
+            ItemCompra item = itens.get(idLivro);
+            item.decrementaQuantidade();
+        }
+    }
+
+
 }
