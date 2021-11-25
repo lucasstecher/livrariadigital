@@ -1,4 +1,27 @@
-<%@ include file="cabecalho.jsp" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<html lang="pt-BR">
+<head>
+  <title>
+    Livraria Stiletto
+  </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Estonia&display=swap');
+  </style>
+</head>
+<body>
+<center>
+  <hr>
+  <br>
+  <h1>
+    <img width="100" src="../livro.gif">
+    Minha Livraria Virtual
+    <img width="100" src="../livro.gif">
+  </h1>
+</center>
+<br>
+<hr>
 
 <p>Valor total da compra:
   <strong>
@@ -13,7 +36,7 @@
       <td><input type="text" name="nome" value="" size="30"></td>
     </tr>
     <tr>
-      <td><strong>Número do cartão:</strong></td>
+      <td><strong>Numero do cartao:</strong></td>
       <td><input type="text" name="cardnum" value="xxxx xxxx xxxx xxxx" size="19"></td>
     </tr>
     <tr>
@@ -23,4 +46,8 @@
   </table>
 </form>
 
-<%@ include file="rodape.jsp" %>
+<br>
+<hr>
+<center><em>Copyright 2010 Livraria Virtual. </em></center>
+</body>
+</html>

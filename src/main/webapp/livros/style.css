@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Estonia', cursive;
+    font-size: 80px;
+}
+body{
+    background-color: #E6DDC4;
+}
+
+h2, h3, center, th{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+}
+h4, .tdLivro, .tdPreco, .tdTotal, .tdValor{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+}
+p{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+blockquote, em{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+.tdQtd{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+.tdAdd{
+    background-color: #E9C891;
+    border: none;
+    color: white;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+}
+.tdAutor{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+.tdMais, .tdMenos{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+}

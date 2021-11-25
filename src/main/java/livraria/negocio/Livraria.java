@@ -31,7 +31,7 @@ public class Livraria {
 
         Livro livro = new Livro();
 
-        livro.setIdLivro("0596005407");
+        livro.setIdLivro("001");
 
         livro.setAno(2008);
 
@@ -47,25 +47,6 @@ public class Livraria {
 
         estoqueLivros.add(livro);
 
-        livro = new Livro();
-
-        livro.setIdLivro("97885573935721");
-
-        livro.setAno(2007);
-
-        livro.setTitulo("Desenvolvendo Aplicações Web com JSP, Servlets,"
-        + " JavaServer Faces, Hibernate, EJB 3 Persistence e Ajax");
-
-        livro.setDescricao(
-                "Livro sobre tecnologias usadas na programação Java pra Web");
-
-        livro.setAutores("Edson Gonçalves");
-
-        livro.setQuantidade(10);
-
-        livro.setPreco(110.9);
-
-        estoqueLivros.add(livro);
     }
 
     public List<Livro> getLivros(){

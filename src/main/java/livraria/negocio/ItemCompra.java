@@ -38,7 +38,7 @@ public class ItemCompra {
 
     }
 
-    public void steQuantidade(int quantity){
+    public void setQuantidade(int quantity){
 
         this.quantidade = quantity;
 

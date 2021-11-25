@@ -6,7 +6,7 @@ import livraria.negocio.excecoes.LivroNaoEncontradoException;
 
 public class LivrariaBean {
     private Livraria sistema = null;
-    private String idLivro="0";
+    private String idLivro = "0";
 
     public LivrariaBean() {
     }
