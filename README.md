@@ -18,3 +18,4 @@ Para rodar a aplicação:
 3. Configure o tomcat com o IntelliJ para que o projeto rode localmente.
 4. Inicie o servidor Tomcat pressionando o botão play, no canto superior direito da tela.
 5. Caso o navegador padrão não abra com o projeto rodando, acesse o link http://localhost:8080/LivrariaDigital_war_exploded/ para abrí-lo.
+6. Na pasta IlustraçãoAplicação contém imagens ilustrativas do projeto em execução.
