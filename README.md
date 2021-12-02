@@ -17,4 +17,4 @@ Para rodar a aplicação:
 2. Instale uma IDE, de preferência o IntelliJ, o jdk-8u152 e o apache-tomcat-8.5.
 3. Configure o tomcat com o IntelliJ para que o projeto rode localmente.
 4. Inicie o servidor Tomcat pressionando o botão play, no canto superior direito da tela.
-5. Caso o navegador padrão não abra com o projeto rodando, acesse o link http://localhost:8080/livraria-digital para abrí-lo.
+5. Caso o navegador padrão não abra com o projeto rodando, acesse o link http://localhost:8080/LivrariaDigital_war_exploded/ para abrí-lo.
