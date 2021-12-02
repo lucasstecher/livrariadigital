@@ -13,9 +13,8 @@ Funcionalidades:
 
 Para rodar a aplicação:
 <br/>
-1. Clone o repositorio via URL.
-2. Instale uma IDE, recomendo IntelliJ
-3. Instale o jdk-8u152.
-4. Instale o apache-tomcat-8.5.
-5. Configure o tomcat com o IntelliJ.
-6. Inicie o servidor tomcat.
+1. Clone o repositorio via URL, utilizando o comando: git clone <url-do-projeto>, no seu terminal preferido.
+2. Instale uma IDE, de preferência o IntelliJ, o jdk-8u152 e o apache-tomcat-8.5.
+3. Configure o tomcat com o IntelliJ para que o projeto rode localmente.
+4. Inicie o servidor Tomcat pressionando o botão play, no canto superior direito da tela.
+5. Caso o navegador padrão não abra com o projeto rodando, acesse o link http://localhost:8080/livraria-digital para abrí-lo.
